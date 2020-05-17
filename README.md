@@ -8,7 +8,7 @@ The contact page is not quite complete.  It still needs to functionally send me 
 
 https://hlinfoot.github.io/AboutHlinfoot/
 
-screenshots/Screenshot (4).png
-screenshots/Screenshot (5).png
-screenshots/Screenshot (6).png
+![](screenshots/Screenshot%20(4).png)
+![](screenshots/Screenshot%20(5).png)
+![](screenshots/Screenshot%20(6).png)
 
