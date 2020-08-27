@@ -19,6 +19,13 @@ h1 {
   padding: 5px;
 }
 
+h2 {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 2vw;
+}
+
 /* <p> tag the same font family */
 p {
   font-family: sans-serif;
