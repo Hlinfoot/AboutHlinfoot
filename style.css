@@ -1,11 +1,19 @@
 /* will make background of entire page white */
 
 body {
-  background-color: white;
+  background: radial-gradient(#56c2f2, #0e192e) no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+  background: linear-gradient(90deg, #0e192e, #56c2f2);
 }
 
 /* will center and give About Me space */
 h1 {
+  max-width: 100%;
+  height: auto;
+  font-size: 3vw;
   text-align: center;
   margin-bottom: 5px;
   padding: 5px;
@@ -24,17 +32,18 @@ p {
   color: white;
   font-size: large;
   margin-top: 5px;
-  margin-left: 10px;
-  float: left;
 }
 
 /* will make image responsive */
 .responsive-img {
   max-width: 200px;
-  margin: auto;
+  width: 100%;
   height: auto;
-  align-items: center;
-  padding: 10px;
+}
+
+.profile-img {
+  width: 100%;
+  height: auto;
 }
 
 .container-portfolio {
@@ -43,6 +52,7 @@ p {
   font-size: large;
   margin-top: 5px;
   padding: 5px;
+  text-align: center;
 }
 
 .container-contact {
@@ -58,6 +68,4 @@ button {
   background-color: white;
 }
 
-/* Cannot for life of me figure out how to center images that are responsive */
-/* May consider adding a border to certain elements for style purposes if so, use #56c2f2 (novice heroes color) */
 /* Consider adding padding to paragraph */
